@@ -84,7 +84,7 @@ plot(steps ~ interval, data = S_Interval, type = "l", main = "average number of 
     ylab = "I N T E R V A L ", xlab = "S T E P S", col = "blue")
 ```
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
+![plot of chunk unnamed-chunk-4](figure/fig2.png) 
 
 
 2.Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
@@ -145,7 +145,7 @@ hist(totalSteps$steps, main = "Total number of steps taken each day", ylab = "D 
     xlab = "S T E P S", col = "cyan")
 ```
 
-![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8.png) 
+![plot of chunk unnamed-chunk-8](figure/fig3.png) 
 
 ```r
 mean(totalSteps$steps)
@@ -193,5 +193,5 @@ library(lattice)
 xyplot(steps ~ interval | day, data = newdata, layout = c(1, 2), type = "l")
 ```
 
-![plot of chunk unnamed-chunk-10](figures/fig 4.png) 
+![plot of chunk unnamed-chunk-10](figures/fig4.png) 
 
