@@ -42,7 +42,7 @@ hist(steps_total$steps, names.arg = steps_total$date, main = "Total number of st
 ## Warning: "names.arg" is not a graphical parameter
 ```
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-2](figures/fig1.png) 
 
 
 2.Calculate and report the mean and median total number of steps taken per day
